@@ -13,6 +13,8 @@ Repository to Demo Data Versioning
 - Tell git not to track the data/ directory
 
 `git add data.dvc .gitignore` 
+
+- Commit and tag the data version as v1.0 
 `git commit -m "Initial data version"`
 `git tag -a "v1.0" -m "Data v1.0"`
 
